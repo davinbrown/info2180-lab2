@@ -8,60 +8,67 @@
 </head>
 <body>
 <div class="container">
- <header>
-    <img src="images/profilephoto.jpg" alt="profile photo" width="100px" height="100px">
+ <header class="header">
+    <img src="images/profilephoto.jpg" alt="profile photo">
     <h1>Davin Brown's Blog</h1>
     <p>Most people give up just when they're about to achieve success.</p>
  </header>
- <main>
+ <main class="main">
     <article>
-        <h2>Sample blog post</h2>
-        <p>September 27, 2021 by John Doe</p>
         <div>
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio rerum doloribus accusantium fuga ad hic molestiae odit minima expedita tempora dolor, dolores, iure temporibus incidunt magnam quisquam quaerat laboriosam ex?</p>
-            <img src="images/" alt="" >
+        <h2>Sample blog post</h2>
+        <p class="posted">September 27, 2021 by John Doe</p>
+        <br>
+        <div class="img-right">
+            <img src="images/article-one-image.png" alt="article image one"  >
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio rerum doloribus accusantium fuga ad hic molestiae odit minima expedita tempora dolor, dolores, iure temporibus incidunt magnam quisquam quaerat laboriosam ex? sit amet consectetur adipisicing elit. Optio rerum doloribus accusantium fuga ad hic molestiae odit minima expedita tempora dolor, dolores, iure temporibus incidunt magnam quisquam quaerat laboriosam</p>
         </div>
+        <br>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt possimus, dolor odit nulla voluptate, ullam doloremque officiis sed eligendi in magnam dicta? Autem eveniet tempore sequi veritatis vero hic itaque.</p>
     </article>
-
     <hr>
-
     <article>
         <h2>Another blog post</h2>
-        <p>September 25, 2021 by Jane Doe</p>
-        <div>
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio rerum doloribus accusantium fuga ad hic molestiae odit minima expedita tempora dolor, dolores, iure temporibus incidunt magnam quisquam quaerat laboriosam ex?</p>
-            <img src="images/" alt="" >
+        <p class="posted">September 25, 2021 by Jane Doe</p>
+        <br>
+        <div class="img-left">
+            <img src="images/article-two-image.png" alt="article image two" >
+            <p> Lorem ipsum dolor sit amet consectetur  sit amet consectetur adipisicing elit. Optio rerum doloribus accusantium fuga ad hic molestiae odit minima expedita tempora dolor, dolores, iure temporibus adipisicing elit. Optio rerum doloribus accusantium fuga ad hic molestiae odit minima expedita tempora dolor, dolores, iure temporibus incidunt magnam quisquam quaerat laboriosam ex.</p>
         </div>
+        <br>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt possimus, dolor odit nulla voluptate, ullam doloremque officiis sed eligendi in magnam dicta? Autem eveniet tempore sequi veritatis vero hic itaque.</p>
     </article>
  </main>
- <aside>
-    <div>
+ <aside class="aside">
+    <div id="about">
         <h2>About</h2>
-        <p>para about me should go here</p>
+        <p>I have been developing websites for the past two years now. I have
+            exposed myself to fundamental principles of modern user interface
+            design as well as essential backend functionalities needed to make
+            websites works.
+        </p>
     </div>
-
-    <div>
+    <br>
+    <div id="social">
         <h3>Social Media</h3>
         <ul>
-            <li>Facebook</li>
-            <li>Instagram</li>
-            <li>Youtube</li>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Youtube</a></li>
         </ul>
     </div>
-
-    <div>
+    <br>
+    <div id="archive">
         <h3>Archives</h3>
         <ul>
-            <li><a href="#">2020</a></li>
-            <li><a href="#">2019</a></li>
-            <li><a href="#">2018</a></li>
-            <li><a href="#">2017</a></li>
+            <li><a href="#">September 2021</a></li>
+            <li><a href="#">August 2021</a></li>
+            <li><a href="#">July 2021</a></li>
+            <li><a href="#">June 2021</a></li>
         </ul>
     </div>
  </aside>
- <footer>
+ <footer class="footer">
     <p>Copyright &copy; 2021, Davin Brown</p>
  </footer>
 </div>
